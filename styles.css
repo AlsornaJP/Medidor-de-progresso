@@ -1,3 +1,31 @@
 h1 {
   text-decoration: underline;
+  color: black;
+}
+
+header {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+header > h1 {
+  background-color: aliceblue;
+  padding: 10px;
+  border: gold solid 10px;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.row {
+  display: block;
+  align-items: center;
+}
+
+nav {
+  background-color: aqua;
 }
